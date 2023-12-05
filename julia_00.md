@@ -1,5 +1,17 @@
 # Computação básica para física - Guia de Início
-Nesse capítulo vamos discorrer brevemente sobre os conhecimentos mínimos e instalação necessária para executar programas em Julia. Alguns programas de exemplo estarão dispostos nesse capítulo, o que não significa que seja necessário entender o que eles fazem por enquanto. Isso está disposto dessa forma propositalmente. A frustração que encontramos ao aprender a programar é comparável à frustração que temos quando estudamos matemática, não é a toa que a matemática e escritora Ada Lovelace seja a mãe da ciência da computação.
+Nesse capítulo vamos discorrer brevemente sobre os conhecimentos mínimos e instalação necessária para executar programas em Julia. Alguns programas de exemplo estarão dispostos nesse capítulo, o que não significa que seja necessário entender o que eles fazem por enquanto.
+
+## Para quem?
+
+Esse material __está sendo desenvolvido__ tendo em mente alunos de graduação do curso de física que buscam começar a sua jornada no mundo da computação científica. Seja para realizar cálculos numéricos, plotar gráficos, desenvolver inteligências artificiais para resolver os mais diversos problemas ou simplesmente automatizar tarefas chatas e repetitivas. O que é exatamente o que a programação mais serve. 
+
+Esse material pode ser utilizado como consulta, revisão ou até mesmo como recomendação de programadores experientes para seus alunos ou colegas que pretendem aprender mais. Críticas e recomendações são bem vindas, tanto no próprio github, através dos _issues_, como também no meu email acadêmico em `arthur.pasqualotto@acad.ufsm.br`. 
+
+## Como estudar?
+
+Esse material foi pensado para ser lido ao mesmo tempo que se executa os comandos simples no terminal ou no REPL, mas o que são? Por enquanto o terminal pode ser entendido como uma forma de se comunicar com o computador utilizando apenas o teclado. O REPL é uma espécie de "terminal de Julia" para executar linhas de código "na hora". Veremos mais sobre essas coisas mais tarde, por enquanto alguns outros conceitos introdutórios serão apresentados.
+A frustração que encontramos ao aprender a programar é comparável à frustração que temos quando estudamos matemática. Isso não é uma novidade, tendo em vista que a computação foi desenvolvida por matemáticos. Ao estudar esse material ou qualquer material sobre programação você vai encontrar de forma inevitável símbolos, comandos, linhas de código e outras coisas que você não vai entender absolutamente NADA. Embora seja um pouco chato e até amedrontador no início isso é necessário. É necessário nos expormos e confrontarmos com a nossa ignorância se queremos aprender algo novo e difícil. Um dos principais motivos pelos quais eu comecei a desenvolver esse material é exatamente diminuir o sofrimento dos estudantes de programação de "primeira viagem". Para isso alguns conceitos fundamentais devem ser expostos antes de começarmos a falar sobre computação de fato. 
+
 # Hardware e Software
 O computador é composto pelas suas peças eletrônicas, como chips, placas, unidades de armazenamento, de memória de acesso aleatório e unidades de processamento. As peças físicas que compõem o computador são chamadas de "Hardware". A memória RAM (_Random Access Memory_), o HD (_HDD: Hard Disc Drive_), o SSD (_Solid State Drive_), a Placa mãe e o processador são exemplos de _Hardware_. 
 O computador também é composto pelos arquivos e programas que são utilizados para realizar e organizar as diferentes tarefas que serão executadas. Os programas e arquivos necessários para o funcionamento do computador para as diferentes tarefas que serão executadas são chamados de "Software". 
