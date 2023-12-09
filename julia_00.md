@@ -41,7 +41,9 @@ Então, de forma simples e básica, a minha resposta para essa pergunta vai ser 
 
 "Qual é o melhor sistema operacional para mim?"
 
-Aquele que você conseguir trabalhar, realizar as tarefas que você precisa fazer, sofrendo menos, tendo menor dificuldade em executá-las ou tendo maior prazer em realizá-las. Isso vai fazer uma diferença enorme no longo prazo. Programação é sobre tornar coisas chatas e repetitivas em tarefas que você precisa fazer o mínimo de vezes possível. 
+Aquele que você conseguir trabalhar.
+
+Realizar as tarefas que você precisa fazer, sofrendo menos, tendo menor dificuldade em executá-las ou tendo maior prazer em realizá-las. Isso vai fazer uma diferença enorme no longo prazo. Programação é sobre tornar coisas chatas e repetitivas em tarefas que você precisa fazer o mínimo de vezes possível. 
 
 
 ### Arquivos, pastas e caminhos
