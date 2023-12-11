@@ -95,6 +95,21 @@ Podemos criar e editar arquivos diretamente do terminal bash,, por exemplo, que 
 Teoricamente tudo que precisamos para utilizar um programador para começar a programar é de um terminal. Através dele podemos navegar e criar pastas, criar e editar arquivos e executá-los. 
 Editores de texto são programas que foram criados com o intuito de melhorar a experiência de escrita para documentos de texto, incluindo programas de computador de diversas linguagens. Editores de texto voltados para programação ou desenvolvimento de software podem ser simples como qualquer bloco de notas ou avançado com diferentes configurações. O importante mesmo é conseguir encontrar o ambiente que favoreça o seu fluxo de trabalho. Existem ambientes integrados de desenvolvimento, ou _Integrated Developlment Environments_, que permitem escrever e executar os programas no mesmo lugar com pouco esforço. O exemplo principal de _IDE_ para o desenvolvimento de programas em Julia Language é o _Visual Studio Code_ ou _VSCode_. Esse IDE também é que eu pessoalmente recomendo para iniciantes em Julia devido aos seus plugins que facilitam o fluxo inicial de trabalho.
 ## Escrevendo programas 
+Programar é uma tarefa complexa. Como toda tarefa complexa, podemos torná-la mais simples de se resolver cultivando habilidades e práticas de desenvolvimento que se encaixe melhor nas nossas necessidades. Dentre essas habilidades, para a computação científica, podemos destacar as seguintes:
+- Abstração:
+	É extremamente necessário exercitar a capacidade de pensar em um problema de diversas formas possíveis. Como podemos interpretar e reimaginar o mesmo problema para que ele possa ser resolvido de uma forma mais eficiente ou mais fácil de se compreender é uma das habilidades mais importantes não só na programação, mas na ciência como um todo;
+- Organização e Transparência: 
+	O seu programa vai ser utilizado por você, para resolver um problema específico em um determinado momento. Ele pode ser reutilizado por você, quando esse mesmo problema surgir novamente. Ele também pode ser reutilizado por você para resolver um problema similar, servindo de base para um novo programa. Por isso é importante manter o programa organizado, salvo em um local seguro, e escrito de forma que seja fácil continuar trabalhando nele sem que se perca muito tempo tentando entender novamente o que ele faz;
+- Inteligibilidade e `comentários`:
+	Continuando o item anterior, escrever um programa legível é muito mais do que apenas escrever de uma forma esteticamente agradável, embora isso seja importante também. Existem muitas formas e metodologias para escrever programas, mas dentre todas as ferramentas possíveis para compreender um programa, o comentário é uma das mais importantes. Comentem seus programas. Em `Julia Language` um cometário é inciado com o caracter `#`, tal qual em python, e qualquer coisa escrita, naquela linha, após o `#` vai ser ignorado pelo programa. Comentários são pequenos textos, frases, ou até mesmo parágrafos que podem ser inseridos no meio do programa para que alguma anotação relevante (ou não) seja salva junto com o código. Veremos mais exemplos de comentários no futuro.;
+- Pesquisa: 
+	Dentre as mais importantes habilidades que um programador do século 21 pode ter é a capacidade de realizar buscas efetivas na internet. Essa habilidade é extremamente necessária, tendo em vista que a chance de você se deparar com um problema novo enquanto programa é quase certa. Copiar e colar programas da internet não é algo tão mal visto, desde que você procure entender e testar o código para ter certeza que ele realiza o que você precisa que ele realize. Assim como estudar física ou matemática exige você observar uma resolução pronta, copiar e matutar sobre ela por um tempo até entender. Tentar reproduzir uma conta, um programa, uma função ou uma tarefa já pronta é uma ótima forma de verificar se o seu processo de resolução de problemas está afiado o suficiente. Afinal, muitas vezes só existe uma resposta correta.
+- Criatividade: 
+	Considerando tudo que foi dito anteriormente, temos que nos lembrar que podem existir muitas formas diferentes de encontrar a resposta para um problema. Muitas vezes, utilizando a criatividade, podemos encontrar uma resposta muito mais simples para um problema do que se pensava anteriormente.
+
+
+Para começarmos a escrever programas em `Julia Language` precisamos primeiramente instalar a linguagem. A discussão sobre conceitos da computação vai ser continuada na próxima sessão.
+
 
 # Instalação da Linguagem Julia
 A linguagem Julia é uma linguagem livre, gratuita, de código aberto com licença MIT. Podendo ser baixada e utilizada de forma gratuita. 
@@ -152,8 +167,6 @@ Os próximos exercícios são propositalmente simples e outros complexos, uma da
 # Exercícios
 ## Fáceis
 1. Utilize o Julia REPL para realizar alguns cálculos básicos de matemática. Com operações do tipo soma, subtração, divisão e multiplicação. Utilizando os símbolos $+$=`+`, $-$=`-`, $\div$=`/`  e $\times$=`*`.
-2. Pelo terminal: Crie uma pasta dentro de outra pasta, escreva um arquivo na pasta e em seguida mostre onde esse arquivo se localiza.
-## Médios
-1. 
+2. Pelo terminal: Crie uma pasta dentro de outra pasta, escreva um arquivo na pasta e em seguida mostre onde esse arquivo se localiza. 
 ## Difíceis
 1. Pesquise e aprenda a escrever um arquivo `.txt` simples utilizando o `vi` ou o `vim`.
